@@ -1,5 +1,4 @@
 import mongoose, { Schema, Document } from "mongoose";
-import { Message } from "./User";
 
 export interface Message extends Document {
   content: string;
